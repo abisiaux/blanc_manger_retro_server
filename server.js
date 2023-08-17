@@ -9,7 +9,7 @@ const MAX_MASTER_CARD = 93;
 const MIN_PLAYER_CARD = 1;
 const MAX_PLAYER_CARD = 62;
 
-const NB_PLAYER_CARD = 5;
+const NB_PLAYER_CARD = 10;
 
 masterCards = [];
 playerCards = [];

@@ -59,6 +59,7 @@ function randomMasterCard() {
     do {
         card = Math.floor(Math.random() * (MAX_MASTER_CARD - MIN_MASTER_CARD + 1) + MIN_MASTER_CARD)
     } while(masterCards.includes(card));
+    masterCards.push(card);
     return ('0' + card).slice(-2);
   }
 
@@ -67,5 +68,6 @@ function randomMasterCard() {
     do {
         card = Math.floor(Math.random() * (MAX_PLAYER_CARD - MIN_PLAYER_CARD + 1) + MIN_PLAYER_CARD)
     } while(playerCards.includes(card));
+    playerCards.push(card);
     return ('0' + card).slice(-2);
   }
